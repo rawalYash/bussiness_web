@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hahmlet", serif;
+}
+
+.nav-section {
+  position: sticky !important;
+  top: 0;
+  background-image: linear-gradient(160deg, #0093e9 0%, #407bff 100%);
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 25px !important;
+  font-weight: 500;
+}
+li a {
+  font-size: 20px;
+  font-weight: 15px;
+  color: #fff !important;
+}
+li a:hover {
+  color: #000 !important;
+}
+.Highlite {
+  color: #000;
+}
+.imageStyle {
+  width: 100;
+  height: 600px;
+}
+.main_heading {
+  font-size: 50px;
+  font-weight: 500;
+  color: #407bff;
+}
+.second_heading {
+  font-size: 40px;
+  font-weight: 500;
+  color: #407bff;
+}
+.text {
+  font-size: 15px;
+}
+.Main_section .btn {
+  background-color: #407bff;
+  color: white;
+  padding: 5px 30px;
+  transition: 0.3s all linear;
+}
+.Main_section .btn:hover {
+  background: #0093e9;
+}
+form {
+  width: 500px;
+}
+
+form input,
+textarea {
+  width: 500px;
+  padding: 12px 10px;
+  margin-bottom: 5px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  border: 2px solid #407bff;
+  transition: 0.2s all linear;
+}
+
+form #main-btn:hover {
+  background-color: #407bff;
+}
+textarea {
+  resize: none;
+  height: 100px;
+}
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #407bff;
+  color: white;
+}
+.social-footer img {
+  width: 30px;
+  height: auto;
+  margin: 0 15px;
+}
+/* responsive code */
+
+@media (max-width: 768px) {
+  .imageStyle {
+    height: auto;
+    width: 100%;
+  }
+  .main_heading {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+  .headline {
+    margin: 10px 10px 0 0 !important;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 985) {
+  .main_heading {
+    font-size: 30px;
+  }
+  form {
+    width: auto;
+  }
+  form input,
+  textarea {
+    width: 100%;
+  }
+  .main_heading,
+  .second_heading,
+  .text {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .nav-section {
+    width: 100%;
+  }
+  .imageStyle {
+    height: auto;
+    width: 100%;
+  }
+  iframe {
+    padding: 0 20px;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  form {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  form input,
+  textarea {
+    width: 100%;
+  }
+}
